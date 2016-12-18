@@ -1,0 +1,8 @@
+<form bindreset="sendmessage">
+<view class="search">
+    <input class="input" bindinput="getinput" placeholder="请输入您要查询的书名"/>
+</view>
+<button form-type="reset">查询</button>
+</form>
+
+<view>cha xun {{bookname}}</view>

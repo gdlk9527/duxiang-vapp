@@ -1,0 +1,43 @@
+/**shuku.wxss**/
+.shuku{
+    height:100%;
+    font-family: 微软雅黑;
+}
+.topbar{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    max-height: 5%;
+}
+.topbar_shuku{
+    margin-top:3%;
+    text-align: center;
+    margin-bottom:3%;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topbar_search{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+.shulan{
+    height: 500px;
+}
+.shulan image {
+    width:25%;
+    height:25%;
+    margin-left:5%;
+    margin-top:5%;
+}
+.bottombar{
+    width:100%;
+}
+.bottombar li{
+    margin-top: 50px;
+    float:left;
+    height: 80px;
+    width:33.3333%;
+    border-top: 1px solid #ebebeb;
+    background-color: #f8f8f8;
+}

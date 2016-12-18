@@ -1,0 +1,19 @@
+/* pages/search/search.wxss */
+.search{
+    z-index: 1;
+}
+.input {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 10%;
+    height: 40px;
+    text-align: center;
+}
+.find {
+    position: absolute;
+    margin-top:30px;
+    margin-left: 44%;
+    padding: 5px 15px;
+    background-color: #f6f6f6;
+    font-size: 0.9em;
+}
