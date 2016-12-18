@@ -1,0 +1,72 @@
+/* pages/reading/reading.wxss */
+
+.book {
+    text-align: center;
+    font-family: 华文新魏;
+    font-size: 180%;
+    padding-top: 80px;
+}
+
+.background {
+    height: 688px;
+    width: 100%;
+    background-color: #f6efe5;
+}
+
+.story {
+    font-family: 华文新魏;
+    text-align: center;
+    font-size: 100%;
+}
+
+.content {
+    font-family: 幼圆;
+    color: black;
+    line-height: 28px;
+    padding: 18px 18px 0 18px;
+    max-height: 480px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.PNG2 {
+    height: 660px;
+    width: 50%;
+    position: absolute;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+.PNG1 {
+    height: 660px;
+    width: 50%;
+    position: absolute;
+    margin-left: 205.5px;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+.danmuchuangkou {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    display: block;
+
+}
+
+
+.fasong {
+    max-height: 40px;
+    width: 20%;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    margin-left: 328.8px;
+}
+
+.input {
+    position: absolute;
+    max-height:40px;
+    width: 80%;
+    padding-left: 20px;
+}

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container" bindtap="fadein">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+  <view class="duxiang" animation="{{animation1}}" style="opacity:0">
+  <text>读享  </text>
+  </view>
+  <view class="duxiang" animation="{{animation2}}" style="opacity:0">
+  <text>非独享 </text>
+  </view>
+  <view class="jinru" bindtap="toshujia">点击进入</view>
+ <view class="jinru" bindtap="toreading">继续阅读</view>
+</view>
